@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headingSize">36sp</dimen>
+    <dimen name="categoryTextSize">20sp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="profilePicWidth">100dp</dimen>
+    <dimen name="profilePicHeight">100dp</dimen>
+</resources>

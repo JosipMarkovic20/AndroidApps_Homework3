@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">About me</string>
+    <string name="headingText">About me</string>
+    <string name="full_name">Full Name:</string>
+    <string name="myName">Josip Marković</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="dateOfBirth">04.08.1998.</string>
+    <string name="mailButtonText">E-Mail me!</string>
+    <string name="pictureDescription">Profile picture</string>
+    <string name="place_of_birth">Place of birth:</string>
+    <string name="placeOfBirth">Slavonski Brod</string>
+    <string name="education">Education:</string>
+    <string name="myEducation">TŠSB</string>
+    <string name="summary">Summary:</string>
+    <string name="summaryText">I am a first year student Faculty of Electrical Engineering, Computer Science and
+        Information Technology Osijek. Ever since I was a little kid computers intriuged me. So I decided to become a
+        programmer. And I am one step closer to my goal thanks to professors at android academy who choose me to become
+        one of the participants of Android Dev Academy 2019.
+    </string>
+</resources>
