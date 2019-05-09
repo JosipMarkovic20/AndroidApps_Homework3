@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="enter_height">Enter your height in centimeters:</string>
+    <string name="height_hint">190cm</string>
+    <string name="enter_weight">Enter your weight in kilograms:</string>
+    <string name="weight_hint">80kg</string>
+    <string name="calculate">Calculate!</string>
+    <string name="underweight">Underweight</string>
+    <string name="normalWeight">Normal weight</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese">Obese</string>
+    <string name="extremelyObese">Extremely obese</string>
+    <string name="underWeightDescription">Being underweight is associated with certain medical conditions, including
+        anorexia, type 1 diabetes, hyperthyroidism, cancer, or tuberculosis.</string>
+    <string name="normalWeightDescription">Keeping to a healthy weight and being more physically active will help you
+        feel stronger and give you more energy. </string>
+    <string name="overWeightDescription">Being overweight or fat is having more body fat than is optimally healthy.
+        Being overweight is especially common where food supplies are plentiful and lifestyles are sedentary.</string>
+    <string name="obeseDescription">Obesity is most commonly caused by a combination of excessive food intake,
+        lack of physical activity, and genetic susceptibility.</string>
+    <string name="extremelyObeseDescription">If you’re extremely obese, losing weight can mean “less heart disease,
+        less diabetes and less cancer,” said Robert Eckel, M.D., past president of the American Heart Association.</string>
+
+</resources>

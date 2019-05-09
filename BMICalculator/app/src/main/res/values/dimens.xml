@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="enterTextSize">20sp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="textMargin">8sp</dimen>
+    <dimen name="picWidth">130dp</dimen>
+    <dimen name="picHeight">250dp</dimen>
+    <dimen name="inputWidth">75dp</dimen>
+    <dimen name="descriptionWidth">200dp</dimen>
+</resources>

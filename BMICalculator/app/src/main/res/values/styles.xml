@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Black</item>
+        <item name="colorPrimaryDark">@color/Black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_margin">@dimen/textMargin</item>
+    </style>
+
+    <style name="EditTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/enterTextSize</item>
+        <item name="android:layout_margin">@dimen/textMargin</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+
+</resources>

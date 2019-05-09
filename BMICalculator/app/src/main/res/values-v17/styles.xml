@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/enterTextSize</item>
+        <item name="android:layout_margin">@dimen/textMargin</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
