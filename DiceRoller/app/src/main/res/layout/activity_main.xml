@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dice_red1"
+            android:id="@+id/dice1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/dice2"
+            android:layout_marginTop="100dp"/>
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/dice2"
+            android:src="@drawable/dice_red2"
+            app:layout_constraintLeft_toRightOf="@id/dice1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/dice3"
+            android:layout_marginTop="100dp"/>
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/dice3"
+            android:src="@drawable/dice_red3"
+            app:layout_constraintLeft_toRightOf="@id/dice2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="100dp"/>
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/dice4"
+            android:src="@drawable/dice_red4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/dice5"
+            android:layout_marginTop="200dp"/>
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/dice5"
+            android:src="@drawable/dice_red5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/dice4"
+            app:layout_constraintRight_toLeftOf="@id/dice6"
+            android:layout_marginTop="200dp"/>
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/dice6"
+            android:src="@drawable/dice_red6"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/dice5"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="200dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rollButton"
+            android:text="@string/roll_the_dice"
+            app:layout_constraintTop_toBottomOf="@id/dice5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintVertical_bias="0.183"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result"
+            app:layout_constraintTop_toBottomOf="@id/rollButton"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="35sp"
+            app:layout_constraintVertical_bias="0.319"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result2"
+            app:layout_constraintTop_toBottomOf="@id/result"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="35sp"
+            app:layout_constraintVertical_bias="0.319"/>
+
+</android.support.constraint.ConstraintLayout>
